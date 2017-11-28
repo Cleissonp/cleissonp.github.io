@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+
+    <nav class="nav-url">
+        <img src="imagem/header.png" alt="Imagem de Chamada" width="350" height="45">
+        <ul>
+            <li><a href="index.html"> Historia </a></li>
+            <li><a href="detonado.html">Detonado</a></li>
+            <li><a href="noticia.html">Noticias </a></li>
+            <li><a href="mod.html">Mod </a></li>
+            <li> <a href="contato.html">Contato </a></li>
+        </ul>
+    </nav>
+    <header>
+        <img src="imagem/banner.jpg" alt="Banner do Site" width="960" height="280" />
+
+    </header>
+    <nav class="menu-ux">
+        <p>HALF LIFE > <a href="contato.html">Contato</a></p>
+        <form class="busca">
+            <input type="search" placeholder="busca">
+            <button type="submit">OK</button>
+        </form>
+    </nav>
+
+    <form class="contato" action="#" method="post">
+        <fieldset>
+            <fieldset id="identificacao">
+                <legend>Identificaçao </legend>
+                <p><label>Nome:</label><input type="text"></p>
+                <p><label>E-mail:</label><input type="email"></p>
+
+            </fieldset>
+            <fieldset id="ajuda-form">
+                <img src="imagem/contato1.jpg" alt="" width="420" height="559">
+            </fieldset>
+            <fieldset id="preferencias">
+                <legend>Preferencias</legend>
+                <p><label class="posicao">Frequencia de Email por dia:</label><input type="range" min="1" max="10"> min:1, max 10</p>
+                <p>Escolha o tema que deseja escolher</p>
+                <p><input type=checkbox> Noticias </p>
+                <p><input type=checkbox> Novidades </p>
+                <p><input type=checkbox> Lançamento de Mod </p>
+                <p><input type=checkbox> Todos</p>
+                <p>Jogou esse jogo e suas expançoes</p>
+                <input type=radio name="jogou"> Sim
+                <input type=radio name="jogou"> Nao
+
+                <p>Qual espançao jogou
+                    <select>
+                    <option value="decay">Decay</option>
+                    <option value="Oppf">Opposing Force</option>
+                    <option value="BShift">Blue Shift</option>
+                    <option value="Bm" selected>Black Mesa</option>
+                </select>
+                </p>
+
+                <p><label class="posicao">Qual mod's voce conhece?</label>
+
+                    <select name="cars" multiple>
+                    <option value="cs">Counter Strike</option>
+                    <option value="Bhl">Brutal Half Life</option>
+                    <option value="Hls">Half Life Source</option>
+                    <option value="outros">Outros</option>
+                </select>
+                </p>
+            </fieldset>
+            <fieldset id="recado">
+                <legend>Deixe Recado para nos:</legend>
+                <label> <textarea></textarea></label>
+            </fieldset>
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+
+
+
+    <footer>
+        <img src="imagem/perfil.png" alt="Exemplo" height="100" width="100">
+        <p>Cleisson Morato</p>
+        <p id="perfil">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quod numquam aut, reprehenderit alias iure dicta laudantium. Ipsam sequi ratione sapiente, eum hic, quam praesentium doloremque officia fuga repellat temporibus.</p>
+
+        <nav class="social">
+            <ul>
+                <li><a href="http://facebook.com" id="face"></a></li>
+                <li><a href="http://instagram.com" id="inst"></a></li>
+                <li><a href="http://twitter.com" id="twi"></a></li>
+            </ul>
+        </nav>
+
+        <nav class="nav-url-footer">
+            <ul>
+                <li><a href="index.html"> Historia </a> </li>
+                <li><a href="detonado.html"> Detonado</a></li>
+                <li><a href="noticia.html">Noticias </a></li>
+                <li><a href="mod.html">Mod </a></li>
+                <li> <a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>

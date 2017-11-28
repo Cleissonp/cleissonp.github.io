@@ -1,0 +1,419 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Ropa+Sans');
+
+/*font-family: 'Ropa Sans', sans-serif;*/
+
+html,
+body,
+nav,
+article,
+aside section footer {
+    font-family: 'Ropa Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    background-color: #EBE8E5;
+}
+
+body {
+    margin: auto;
+    text-align: center;
+    width: 960px;
+}
+
+/*Menu NAV topo*/
+
+.nav-url img {
+    float: left;
+    margin: 5px;
+
+}
+
+.nav-url {
+    /*    background: #FA7D26;*/
+    background: #FF5617;
+    height: 60px;
+    width: 960px;
+    border: black;
+}
+
+
+
+.nav-url ul li {
+    /*    border: black;*/
+    display: inline-block;
+    font-size: 1.4em;
+    float: left;
+    margin: 1px;
+    padding: 11px;
+    text-transform: uppercase;
+}
+
+.nav-url a {
+    color: white;
+    display: inline-block;
+    text-shadow: 1px 2px 2px #f0c575;
+    width: 95px;
+    text-decoration: none;
+}
+
+.nav-url ul li :hover {
+    /*    text-shadow: 1px 1px 5px #f0834c;*/
+    background-color: #FF6931;
+    color: black;
+
+}
+
+/*Menu de Navegaçao e Busca*/
+
+.menu-ux {
+    /*    border: solid;*/
+    /*    margin: -1px;*/
+    background: #FF8316;
+    float: left;
+    width: inherit;
+    /*    font-size: 1.5em;*/
+}
+
+.menu-ux p {
+    float: left;
+    margin-left: 5px;
+    text-transform: uppercase;
+
+}
+
+
+.busca {
+    float: right;
+    padding-top: 10px;
+    margin-right: 5px;
+
+}
+
+.busca input {
+    /*    border-radius: 10px;*/
+    height: 25px;
+    padding-left: 10px;
+}
+
+/*
+button {
+    border-radius: 5px;
+}
+*/
+
+/*Article do Enredo*/
+
+.historia {
+    background: #ebe8e5;
+    float: left;
+    padding-left: 10px;
+    text-align: left;
+    width: 630px;
+}
+
+/*Article do Detonado*/
+
+.detonado {
+    background: #ebe8e5;
+    float: right;
+    padding: 5px 10px;
+    text-align: left;
+    width: 620px;
+}
+
+/*Section da Noticias*/
+
+
+
+
+
+.noticia {
+    /*    background: orange;*/
+    float: left;
+    padding-left: 5px;
+    text-align: left;
+    width: 450px;
+}
+
+.noticia-sub {
+
+    /*    background: orange;*/
+    margin-left: 40px;
+    float: left;
+    text-align: left;
+    width: 450px;
+    height: 600px;
+
+}
+
+
+
+.noticia-sub1 {
+    /*    background: #685F23;*/
+    margin-left: 40px;
+    float: left;
+    text-align: left;
+    padding: 5px;
+    width: 452px;
+}
+
+
+
+
+/*Aside do Enredo (Tabela)*/
+
+.info {
+    background: red;
+    float: left;
+    padding: 5px;
+    text-align: center;
+    width: 310px;
+    height: 780px;
+}
+
+/*Aside contedo o sumario do Detonado*/
+
+.sumario {
+    background: #E85914;
+    font-size: 1.3em;
+    float: right;
+    padding: 10px;
+    text-align: left;
+    width: 300px;
+}
+
+.sumario ol {
+    background-color: rgba(0, 0, 0, 0.05);
+    /*    box-shadow: 1px 1px 1px 1px black;*/
+}
+
+.sumario li {
+    padding: 20px;
+    list-style: none;
+}
+
+.sumario li a {
+    color: aliceblue;
+}
+
+.sumario a:hover {
+
+    color: black;
+    border-radius: 5px;
+}
+
+/*Tabela */
+
+table,
+tr,
+th,
+td {
+    border: 2px solid #939393;
+    border-collapse: collapse;
+    color: aliceblue;
+    margin: 5px auto;
+    padding: 1px;
+    text-align: left;
+}
+
+
+
+.topo {
+
+    left: calc(100% - 180px);
+    position: fixed;
+    top: calc(100% - 63px);
+    opacity: .5;
+}
+
+.topo:hover {
+    opacity: 1;
+}
+
+.mod1 {
+    background: #FFB43C;
+    border: solid 1px blue;
+    margin: 4px;
+    float: left;
+    padding: 9px;
+    width: 451px;
+}
+
+/*formulario contato*/
+
+.contato {
+    /*    background: red;*/
+    /*    display: inline-block;*/
+    clear: both;
+    padding: 1em;
+    /*    margin: 0 auto;*/
+    text-align: left;
+    /*    width: 480px;*/
+}
+
+label {
+
+    width: 50px;
+    margin-right: 70px;
+}
+
+.contato button {
+    clear: both;
+    float: left;
+}
+
+
+#identificacao {
+    float: left;
+    width: 410px;
+    ;
+
+}
+
+
+#preferencias {
+    /*    clear: right;*/
+    float: left;
+    width: 410px;
+}
+
+#recado {
+    clear: both;
+    float: left;
+    width: 410px;
+}
+
+#ajuda-form {
+    float: right;
+    margin-top: 8px;
+    padding: 0px;
+    width: 420px;
+    height: 560px;
+}
+
+*/ label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 50px;
+    margin-right: 10px;
+    text-align: left;
+}
+
+.posicao {
+    width: 100px;
+}
+
+input {
+    /*    margin: px;*/
+}
+
+/*Rodape*/
+
+footer {
+    /*    background: #00A287;*/
+    background: #B0461C;
+    clear: both;
+    color: aliceblue;
+    height: 270px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+footer a {
+    color: aliceblue;
+}
+
+footer p {
+    float: left;
+    font-size: 1.7em;
+    margin: 15px 0px 20px 0px;
+    width: 376px;
+}
+
+footer img {
+    float: left;
+    margin: 5px 10px 5px 5px;
+    opacity: 0.5;
+    border-radius: 100px;
+}
+
+footer img:hover {
+    opacity: 1;
+    border-radius: 0px;
+}
+
+#perfil {
+
+    font-size: 1.1em;
+    margin: 0px;
+    width: 460px;
+}
+
+
+
+
+.nav-url-footer {
+    float: left;
+}
+
+.nav-url-footer ul li {
+    list-style-type: none;
+    margin-left: 73px;
+}
+
+
+
+.social li {
+    display: inline-block;
+    height: 119px;
+}
+
+.social ul {
+    float: right;
+    height: 140px;
+    margin-top: -65px;
+    width: 290px;
+}
+
+.social a {
+    background: url('../imagem/social.png');
+    display: inline-block;
+    height: 90px;
+    width: 91px;
+
+}
+
+#face {
+
+    background-position: 0px 92px;
+    opacity: 0.5;
+}
+
+#face:hover {
+    opacity: 1;
+    background-position: 0px 0px;
+}
+
+#inst {
+    background-position: 184px 93px;
+    opacity: 0.5;
+}
+
+
+#inst:hover {
+    background-position: 184px 0px;
+    opacity: 1;
+}
+
+#twi {
+    background-position: 93px 93px;
+    opacity: 0.5;
+}
+
+#twi:hover {
+    background-position: 93px 0px;
+    opacity: 1;
+}
