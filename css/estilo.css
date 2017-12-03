@@ -51,26 +51,41 @@ body {
     text-transform: uppercase;
 }
 
-.nav-url a {
+
+.nav-url a img {
+    transform: scale(.8);
+    float: left;
+}
+
+.nav-url a img:hover {
+    transform: scale(1.1);
+
+}
+
+/*
+.nav-url a img {
+    display: block;
+    float: left;
+}
+*/
+
+.nav-url ul li a {
     color: white;
     display: inline-block;
     text-shadow: 1px 2px 2px #f0c575;
-    width: 95px;
     text-decoration: none;
 }
 
 .nav-url ul li :hover {
-    /*    text-shadow: 1px 1px 5px #f0834c;*/
-    background-color: #FF6931;
     color: black;
-
+    transition: .3s ease;
+    transform: scale(1.5);
 }
 
 /*Menu de Navegaçao e Busca*/
 
 .menu-ux {
-    /*    border: solid;*/
-    /*    margin: -1px;*/
+
     background: #FF8316;
     float: left;
     width: inherit;
@@ -98,12 +113,6 @@ body {
     padding-left: 10px;
 }
 
-/*
-button {
-    border-radius: 5px;
-}
-*/
-
 /*Article do Enredo*/
 
 .historia {
@@ -125,10 +134,6 @@ button {
 }
 
 /*Section da Noticias*/
-
-
-
-
 
 .noticia {
     /*    background: orange;*/
@@ -187,7 +192,6 @@ button {
 
 .sumario ol {
     background-color: rgba(0, 0, 0, 0.05);
-    /*    box-shadow: 1px 1px 1px 1px black;*/
 }
 
 .sumario li {
@@ -245,19 +249,9 @@ td {
 /*formulario contato*/
 
 .contato {
-    /*    background: red;*/
-    /*    display: inline-block;*/
     clear: both;
     padding: 1em;
-    /*    margin: 0 auto;*/
     text-align: left;
-    /*    width: 480px;*/
-}
-
-label {
-
-    width: 50px;
-    margin-right: 70px;
 }
 
 .contato button {
@@ -269,13 +263,10 @@ label {
 #identificacao {
     float: left;
     width: 410px;
-    ;
-
 }
 
 
 #preferencias {
-    /*    clear: right;*/
     float: left;
     width: 410px;
 }
@@ -294,10 +285,11 @@ label {
     height: 560px;
 }
 
-*/ label {
-    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+label {
+    /*    Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas*/
     display: inline-block;
     width: 50px;
+    background: red;
     margin-right: 10px;
     text-align: left;
 }
@@ -417,3 +409,9 @@ footer img:hover {
     background-position: 93px 0px;
     opacity: 1;
 }
+
+/*
+#inicio {
+    float: left;
+    width: 30%;
+}*/
