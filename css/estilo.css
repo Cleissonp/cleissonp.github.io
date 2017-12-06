@@ -1,7 +1,13 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=Ropa+Sans');
+@import url('https://fonts.googleapis.com/css?family=Prociono|Ropa+Sans');
 
-/*font-family: 'Ropa Sans', sans-serif;*/
+/*
+font-family: 'Prociono',serif;
+font-family: 'Ropa Sans',
+sans-serif;
+*/
+
+* {}
 
 html,
 body,
@@ -62,13 +68,6 @@ body {
 
 }
 
-/*
-.nav-url a img {
-    display: block;
-    float: left;
-}
-*/
-
 .nav-url ul li a {
     color: white;
     display: inline-block;
@@ -118,9 +117,15 @@ body {
 .historia {
     background: #ebe8e5;
     float: left;
-    padding-left: 10px;
-    text-align: left;
-    width: 630px;
+    padding-right: 20px;
+    text-align: justify;
+    width: 620px;
+}
+
+/*Fonte "p" do article */
+
+article p {
+    font-family: 'Prociono', serif;
 }
 
 /*Article do Detonado*/
@@ -129,7 +134,7 @@ body {
     background: #ebe8e5;
     float: right;
     padding: 5px 10px;
-    text-align: left;
+    text-align: justify;
     width: 620px;
 }
 
@@ -140,35 +145,53 @@ body {
     float: left;
     padding-left: 5px;
     text-align: left;
-    width: 450px;
+    /*    width: 450px;*/
 }
 
-.noticia-sub {
+.noticia h2 {
+    display: none;
 
-    /*    background: orange;*/
-    margin-left: 40px;
+}
+
+.noticia ul li {
     float: left;
-    text-align: left;
-    width: 450px;
-    height: 600px;
-
+    background: #6F8088;
+    display: inline-block;
+    width: 220px;
+    padding: 30px;
+    height: 370px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    list-style: none;
 }
 
-
-
-.noticia-sub1 {
-    /*    background: #685F23;*/
-    margin-left: 40px;
-    float: left;
-    text-align: left;
-    padding: 5px;
-    width: 452px;
+.noticia ul li figure {
+    margin-left: 10px;
+    /*    background: red;*/
+    /*    opacity: .2;*/
 }
 
+.noticia ul li:hover {
+    cursor: pointer;
+    transition: .9s ease;
+    transform: scale(1.2);
+    box-shadow: 0px 0px 20px 10px hsl(199, 7%, 38%);
+}
 
+.noticia ul li figure img {
 
+    transform: scale(1.2);
+    /*    box-shadow: 0px 0px 40px 10px black;*/
+}
 
-/*Aside do Enredo (Tabela)*/
+.noticia figcaption {
+
+    color: white;
+    margin-top: 2em;
+    font-size: 1.6em;
+    /*    text-transform: uppercase;*/
+}
 
 .info {
     background: red;
@@ -239,11 +262,16 @@ td {
 
 .mod1 {
     background: #FFB43C;
-    border: solid 1px blue;
+    /*    border: solid 1px blue;*/
     margin: 4px;
     float: left;
     padding: 9px;
     width: 451px;
+    text-align: justify;
+}
+
+.mod1 img {
+    margin: auto 100px;
 }
 
 /*formulario contato*/
@@ -265,16 +293,30 @@ td {
     width: 410px;
 }
 
+#identificacao input {
+    width: 80%;
+}
 
 #preferencias {
     float: left;
     width: 410px;
 }
 
+#preferencias select {
+
+    width: 80%;
+}
+
 #recado {
     clear: both;
     float: left;
     width: 410px;
+}
+
+#recado textarea {
+    width: 400px;
+    height: 100px;
+
 }
 
 #ajuda-form {
@@ -289,7 +331,7 @@ label {
     /*    Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas*/
     display: inline-block;
     width: 50px;
-    background: red;
+    /*    background: red;*/
     margin-right: 10px;
     text-align: left;
 }
@@ -298,8 +340,9 @@ label {
     width: 100px;
 }
 
-input {
-    /*    margin: px;*/
+input [type="text"] {
+    /*    margin: 0px auto;*/
+    /*    width: 90%;*/
 }
 
 /*Rodape*/
@@ -354,6 +397,7 @@ footer img:hover {
 .nav-url-footer ul li {
     list-style-type: none;
     margin-left: 73px;
+    text-transform: uppercase;
 }
 
 
