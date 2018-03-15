@@ -4,8 +4,21 @@
 body {
     background-color: black;
     overflow-x: hidden;
+    font-size: 1.4em;
 }
 
+article .card {
+
+    background: #a09482;
+}
+
+img{
+    max-width: 100%;
+}
+.breadcrumbs a {
+    font-size: medium;
+    color: #f5ae45;
+}
 
 footer p {
     color: aliceblue;
