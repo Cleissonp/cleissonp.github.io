@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+.blur {
+
+    filter: grayscale(5%) blur(5px);
+}
+
 
 body {
     background-color: black;

@@ -18,9 +18,9 @@ aside img {
     width: 50%;
 }
 
-img{
+/* img{
     max-width: 100%;
-}
+} */
 .breadcrumbs a {
     font-size: medium;
     color: #f5ae45;
@@ -31,7 +31,7 @@ footer p {
     margin-bottom: 4px;
     margin-left: 10px;
     text-transform: uppercase;
-    text-align: left;
+    /* text-align: left; */
 }
 
 nav li {
@@ -53,9 +53,4 @@ footer h4 {
 
 form {
 color: aliceblue;
-}
-
-form textarea {
-height: 150%;
-
 }
