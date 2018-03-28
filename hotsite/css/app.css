@@ -26,8 +26,14 @@ aside img {
     color: #f5ae45;
 }
 
+hr {
+    background-color:#f5af4534;
+    height: 2px;
+}
+
+
 footer p {
-    color: aliceblue;
+    color:rgb(240, 253, 253);
     margin-bottom: 4px;
     margin-left: 10px;
     text-transform: uppercase;
@@ -41,16 +47,16 @@ nav li {
 
 footer h4 {
 
-    color: aliceblue;
+    color: rgb(253, 253, 253);
 }
 
 .small-12 h1 {
-    color: aliceblue;
+    color:rgb(240, 253, 253);
 }
 .small-12 p {
-    color: aliceblue;
+    color:rgb(240, 253, 253);
 }
 
 form {
-color: aliceblue;
+color:rgb(240, 253, 253);
 }
