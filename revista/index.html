@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>REVISTA</title>
+<title>Revista</title>
 <script language="JavaScript" type="text/javascript">
 <!--
 //v1.7
@@ -293,8 +293,29 @@ var requiredRevision = 2;
 // -->
 </script>
 </head>
-<body bgcolor="#999999">
+
+<style>
+	body {
+		width: 960px;
+		margin: 0 auto 0 auto;
+		background-color:#bec9d4;
+	}
+
+	h1, p {
+		color:#3d88a7;
+		text-align: center;
+		font-size: 3em;
+	}
+
+</style>
+<body >
 <!--url's used in the movie-->
+
+<h1>Revista Digital</h1>
+
+<p>Clica no canto da Revista para Folhear</p>
+
+
 <!--text used in the movie-->
 <script language="JavaScript" type="text/javascript">
 <!--
@@ -304,8 +325,8 @@ if(hasRightVersion) {  // if we've detected an acceptable version
 	AC_FL_RunContent(
 		'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,2,0',
 		'width', '710',
-		'height', '956',
-		'src', 'REVISTA',
+		'height', '960',
+		'src', 'Revista',
 		'quality', 'high',
 		'pluginspage', 'http://www.adobe.com/go/getflashplayer',
 		'align', 'middle',
@@ -314,20 +335,20 @@ if(hasRightVersion) {  // if we've detected an acceptable version
 		'scale', 'noscale',
 		'wmode', 'window',
 		'devicefont', 'false',
-		'id', 'REVISTA',
-		'bgcolor', '#999999',
-		'name', 'REVISTA',
+		'id', 'Revista',
+		'bgcolor', '#bbc1d7',
+		'name', 'Revista',
 		'menu', 'true',
 		'allowFullScreen', 'true',
 		'allowScriptAccess','sameDomain',
-		'movie', 'REVISTA',
+		'movie', 'Revista',
 		'salign', ''
 		); //end AC code
 } else {  // flash is too old or we can't detect the plugin
-	var alternateContent = '<p>This content requires version '
+	var alternateContent = '<p>Poxa, você não tem o Adobe Flash '
 		+ requiredMajorVersion + '.' + requiredMinorVersion + '.' + requiredRevision + ' '
-		+ 'or higher of the Adobe Flash Player.</p>'
-		+ '<a href="http://www.adobe.com/go/getflashplayer/">Get Flash</a>';
+		+ 'por favor habilite em seu navegador, caso não tenha instale a ultima versão no link .</p>'
+		+ '<a href="http://www.adobe.com/go/getflashplayer/">Baixar ultima versão do Flash</a>';
 	document.write(alternateContent);  // insert non-flash content
 }
 // -->
