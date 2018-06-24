@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:500,100,700,400,300);
+/*@import url(https://fonts.googleapis.com/css?family=Roboto:500,100,700,400,300);*/
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab');
 
 /* Global */
 * {
@@ -18,7 +19,7 @@ body {
     background-color: #111921;
     width: 100%;
     min-width: 950px;
-    font-family: Roboto, tahoma, helvetica, sans-serif;
+    font-family: Zilla Slab, tahoma, helvetica, sans-serif;
     font-size: 12px;
     color: #fff;
 }
@@ -308,7 +309,7 @@ ul.thin li {
 /*Menu DropDown*/
 #menudrop {
     text-align: center;
-    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-family: Zilla Slab, Arial, Helvetica, sans-serif;
     float: left;
 }
 
@@ -1574,7 +1575,7 @@ body {
     width: 100%;
     margin-top: 55px;
     min-width: 950px;
-    font-family: Roboto, tahoma, helvetica, sans-serif;
+    font-family: Zilla Slab, tahoma, helvetica, sans-serif;
     font-size: 12px;
     color: #d8d8d8;
     background: url(https://raw.githubusercontent.com/LeandroPelegrini/tema-midnight/master/images/pattern.png) repeat scroll 0 0 #1b1b1d!important;
@@ -1839,7 +1840,7 @@ ul.thin li {
 /*Menu DropDown*/
 #menudrop {
     text-align: center;
-    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-family: Zilla Slab, Arial, Helvetica, sans-serif;
     float: left;
 }
 
