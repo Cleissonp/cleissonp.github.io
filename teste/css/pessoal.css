@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis|Schoolbell');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Paaji');
 html,
 body {
   max-width: 100%;
@@ -11,11 +12,72 @@ body,
 h1,
 h2,
 h3 {
-  font-family: 'Schoolbell', 'Segoe UI', cursive;
+  font-family:'Schoolbell', 'Segoe UI', cursive;
 }
 
 p {
   font-family: 'Dosis', sans-serif;
+}
+
+h2 .text-center {
+  font-size: 3em;
+  color: red;
+}
+
+.divisor-branco {
+  /* height: 1px;
+  background-color: aliceblue; */
+  position: relative;
+  bottom: 15px;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+
+.divisor-branco::after {
+  content: "";
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  height: 0.5rem;
+ 
+  background-color: aliceblue;
+  width: 26%;
+  bottom: 0.4rem;
+
+  margin-top: 30px;
+}
+
+.divisor-normal {
+  /* height: 1px;
+  background-color: black; */
+  position: relative;
+  bottom: 15px;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+
+.divisor-normal::after {
+  content: "";
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  height: 0.5rem;
+  /*    background-color: #b598ab;*/
+  background-color:#654ea3;
+  width: 26%;
+  bottom: 0.4rem;
+  /* left: 0; */
+  margin-top: 30px;
+}
+
+.line:after {
+  content: "";
+  display: block;
+  margin-top: 0.2em;
+  height: 3px;
+  /*    background-color: rgba(51, 51, 51, 0.14);*/
+  background-color: aliceblue;
+  width: 5em;
 }
 
 /* Menu Styles */
@@ -25,15 +87,15 @@ p {
   position: absolute;
   background: whitesmoke;
   width: auto;
-  max-width: 200px;
+  max-width: 190px;
   padding: 20px;
-  padding-right:10px; 
+  padding-right: 10px;
   right: 0;
   top: 50px;
   text-align: left;
   opacity: 0;
   transform: translate(-20px, 0px);
-  box-shadow: 0 2px 10px 0 rgba(0,0,0,.4);
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .4);
   z-index: 999;
   font-size: 1.5em;
 }
@@ -81,7 +143,7 @@ p {
   padding: 5px 0;
   box-sizing: border-box;
   cursor: pointer;
-  margin-top: 2.75em;
+  margin-top: 12%;
   margin-right: 1em;
 }
 
@@ -117,21 +179,32 @@ p {
   transform: rotate(-225deg) translate(-4px, 1px);
 }
 
-#logo {
-  top: 10px;
-  position: absolute;
-  left: 162px;
-  padding-bottom: 20px;
+
+
+
+@media screen and (min-width:10em) {
+  #banner {
+    background-image: url(../img/banner-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+  }
 }
 
-#banner {
-  background-image: url(../img/banner.jpg);
-  background-repeat: no-repeat;
-  background-position: top left;
-  background-size: cover;
-  max-width: 100%;
-  height: 100vh;
+@media screen and (min-width:50em) {
+  #banner {
+    background-image: url(../img/banner2.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+  }
 }
+
+
 
 .bg-color {
   background-color: rgba(0, 0, 0, 0.246);
@@ -166,14 +239,35 @@ p {
 
 #menus {
   position: relative;
+  /* position: fixed; */
+  z-index: 99999;
   margin: 0;
   padding: 0;
+  /* background: black; */
+  width: 100%;
 }
 
 .font-menu {
   background-color: whitesmoke;
-  
 }
+
+#logo {
+  margin: 0.751em;
+}
+
+@media screen and (min-width:15em) {
+ #logo {
+   max-width: 40%;
+   /* margin-left: 5em; */
+ }
+}
+
+@media screen and (min-width:30em){
+#logo {
+  margin: 10px;
+  max-width: 70%;
+}}
+
 
 @media screen and (min-width:59.5em) {
   .font-menu {
@@ -193,6 +287,7 @@ p {
   .font-menu {
     font-size: 2.4em;
     padding-top: 1.75em;
+    /* min-height: 20% ; */
   }
 }
 
@@ -213,13 +308,51 @@ p {
   fill: white;
 } */
 
+
+@media screen and (min-width:20em) {
+  .welcome {
+    background-color: rgba(0, 0, 0, 0.603);
+    position: relative;
+    top: 25vh;
+    padding: 1em;
+    left: 1em;
+    max-width: 90%;
+  }
+}
+
+
+
 @media screen and (min-width:40em) {
   .welcome {
     background-color: rgba(0, 0, 0, 0.39);
     position: relative;
-    top: 20vh;
+    top: 19vh;
     /* padding: 2em; */
-    left: 10em;
+    left: 10.5em;
+    max-width: 40%;
+  }
+}
+
+@media screen and (min-width:48em) {
+  .welcome {
+    background-color: rgba(0, 0, 0, 0.39);
+    /* background-color: red; */
+    position: relative;
+    top: 19vh;
+    /* padding: 2em; */
+    left: 5.5em;
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width:86em) {
+  .welcome {
+    background-color: rgba(0, 0, 0, 0.39);
+    /* background-color: red; */
+    position: relative;
+    top: 19vh;
+    /* padding: 2em; */
+    left: 25vw;
     max-width: 40%;
   }
 }
@@ -227,6 +360,7 @@ p {
 .welcome h1,
 .welcome h2 {
   color: white;
+  text-transform: uppercase;
 }
 
 #cia {
@@ -240,6 +374,10 @@ p {
   background-size: cover;
 }
 
+#cia .text-center {
+  color: aliceblue;
+}
+
 #integrantes {
   position: relative;
   margin: 0;
@@ -248,6 +386,26 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#integrantes .text-center {
+  color: aliceblue;
+}
+
+@media screen and (max-width:40em){
+.text-right {
+text-align: left;
+}
+.bg-color .p-right,
+.h-right {
+  margin: auto 3% auto 10% !important;
+
+}
+}
+
+#espetaculo, #contato .text-center {
+  color:#412b7a;
+}
+
 
 #contato {
   position: relative;
