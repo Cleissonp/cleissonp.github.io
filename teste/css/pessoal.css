@@ -114,9 +114,7 @@ h2 .text-center {
   border-bottom: 2px solid;
 }
 
-#mobile-menu li:last-of-type {
-  /* border-bottom: 2px solid; */
-}
+
 
 #mobile-menu li a {
   display: block;
@@ -449,4 +447,12 @@ text-align: left;
 
 .space {
   height: 20vh;
+}
+
+#footer {
+  background-color: black;
+    height: 100%;
+}
+#footer p {
+  font-family:'Schoolbell', 'Segoe UI', cursive;
 }
