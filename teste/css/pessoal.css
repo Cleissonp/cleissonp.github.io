@@ -23,7 +23,9 @@ h2 .text-center {
   font-size: 3em;
   color: red;
 }
-
+.cell p {
+  color:black;
+}
 .divisor-branco {
   height: 0px; /*
   background-color: aliceblue; */
